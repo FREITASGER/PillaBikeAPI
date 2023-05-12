@@ -1,6 +1,7 @@
 package com.svalero.pillaBike.controller;
 
 import com.svalero.pillaBike.domain.Bike;
+import com.svalero.pillaBike.domain.Parking;
 import com.svalero.pillaBike.exception.BikeNotFoundException;
 import com.svalero.pillaBike.exception.ErrorMessage;
 import com.svalero.pillaBike.exception.ParkingNotFoundException;
@@ -32,14 +33,13 @@ public class BikeController {
     private final Logger logger = LoggerFactory.getLogger(BikeController.class); //Creamos el objeto capaz de pintar las trazas en el log y lo asociamos a la clase que queremos controlar
 
     //Add bikes
-    @PostMapping("/bikes/{parkingId}")
-    public ResponseEntity<Bike> addBike(@Valid @PathVariable("parkingId") long parkingId,@RequestBody Bike bike) throws ParkingNotFoundException {
+    @PostMapping("/parkings/{parkingId}/bikes")
+    public ResponseEntity<Bike> addBike(@Valid @PathVariable long parkingId, @RequestBody Bike bike) throws ParkingNotFoundException {
         logger.debug("begin addBike");
         Bike newBike = bikeService.addBike(bike, parkingId);
         logger.debug("end addBike");
         return new ResponseEntity<>(newBike, HttpStatus.CREATED);
     }
-
 
     //Delete bike
     @DeleteMapping("/bikes/{id}")
@@ -63,8 +63,15 @@ public class BikeController {
         return ResponseEntity.ok(bikeService.findAll());
     }
 
+    //Get bike by parking
+    @GetMapping("parkings/{parkingId}/bikes")
+    public ResponseEntity<List<Bike>> getBikeByParkingId(@PathVariable long parkingId) throws ParkingNotFoundException{
+        Parking parking = parkingService.findById(parkingId);
+        List<Bike> bikes = bikeService.findByParking(parking);
+        return ResponseEntity.ok(bikes);
+    }
     //Search bike by id
-    @GetMapping("/bikes/{bikeId}")
+    @GetMapping("/bikes/{id}")
     public ResponseEntity<Bike> getBike(@PathVariable long id) throws BikeNotFoundException {
         logger.debug("begin getBike");
         Bike bike = bikeService.findById(id);
@@ -72,7 +79,7 @@ public class BikeController {
         return ResponseEntity.ok(bike);
     }
 
-    //Excepción 404: Bike not found
+    //Exception 404: Bike not found
     @ExceptionHandler(BikeNotFoundException.class)
     public ResponseEntity<ErrorMessage> handleBikeNotFoundException(BikeNotFoundException bnfe) {
         logger.error((bnfe.getMessage()), bnfe); //Traza de log
@@ -102,7 +109,7 @@ public class BikeController {
         return new ResponseEntity<>(errorMessage,HttpStatus.BAD_REQUEST);
     }
 
-    //cualquier exception. 500
+    //Any exception. 500
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ErrorMessage> handleException(Exception e) {
         logger.error((e.getMessage()), e); //Traza de log

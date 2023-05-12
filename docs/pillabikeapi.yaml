@@ -82,13 +82,15 @@ paths:
           $ref: '#/components/responses/NotFound'
         '500':
           $ref: '#/components/responses/InternalServerError'
-  /bikes/{parkingId}:
+  /parkings/{parkingId}/bikes:
    post:
      tags:
        - Bikes
      summary: Registration of a new bike
-     description: Register a new bike in the business
+     description: It registers a new bike in a certain parking, whose id is given in the URL
      operationId: postBike
+     parameters:
+       - $ref: '#/components/parameters/ParkingId'
      requestBody:
        content:
          application/json:
@@ -127,7 +129,7 @@ paths:
       tags:
         - Parkings
       summary: Registration of a new parking
-      description: Register a new parking in the business
+      description: It registers a new parking in the business
       operationId: postParking
       requestBody:
         content:

@@ -36,6 +36,6 @@ public class Bike {
 
     @ManyToOne
     @JoinColumn(name = "parking_id")
-    private Parking bikesInParking;
+    private Parking parking;
 
 }

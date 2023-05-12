@@ -30,7 +30,7 @@ public class BikeServiceImpl implements BikeService {
 
         Parking parking = parkingRepository.findById(parkingId)
                 .orElseThrow(ParkingNotFoundException::new);
-        bike.setBikesInParking(parking);
+        bike.setParking(parking);
         return bikeRepository.save(bike);
     }
 
@@ -56,6 +56,11 @@ public class BikeServiceImpl implements BikeService {
     @Override
     public List<Bike> findAll() {
         return bikeRepository.findAll();
+    }
+
+    @Override
+    public List<Bike> findByParking(Parking parking) {
+        return bikeRepository.findByParking(parking);
     }
 
     //buscar por id

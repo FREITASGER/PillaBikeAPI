@@ -39,7 +39,7 @@ public class Parking {
     @Column
     private boolean isFull;
 
-    @OneToMany(mappedBy = "bikesInParking")
+    @OneToMany(mappedBy = "parking")
     @JsonBackReference(value = "bikes_parking")
     private List<Bike> bikes;
 

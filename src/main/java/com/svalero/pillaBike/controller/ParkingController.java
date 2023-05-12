@@ -35,14 +35,14 @@ public class ParkingController {
     }
 
     //Delete parking
-    @DeleteMapping("/parkings/{id}")
+    @DeleteMapping("/parkings/{parkingId}")
     public ResponseEntity<Void> deleteParking(@PathVariable long id) throws ParkingNotFoundException {
         parkingService.deleteParking(id);
         return ResponseEntity.noContent().build();
     }
 
     //Modify parking
-    @PutMapping("/parkings/{id}")
+    @PutMapping("/parkings/{parkingId}")
     public ResponseEntity<Parking> modifyParking(@PathVariable long id, @RequestBody Parking parking) throws ParkingNotFoundException {
         logger.debug("begin modifyParking");
         Parking modifiedParking = parkingService.modifyParking(id, parking);
