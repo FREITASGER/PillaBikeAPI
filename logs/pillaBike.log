@@ -1,0 +1,13 @@
+2023-05-12 04:10:36,254 INFO org.springframework.boot.StartupInfoLogger [main] Starting PillaBikeApplication using Java 17.0.5 on DESKTOP-4L55LO1 with PID 23856 (C:\Users\Cristina\IdeaProjects\2º DAM\Prácticas junio\PillaBike\target\classes started by Cristina in C:\Users\Cristina\IdeaProjects\2º DAM\Prácticas junio\PillaBike)
+2023-05-12 04:10:36,267 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-12 04:10:37,453 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-05-12 04:10:37,454 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-12 04:10:37,461 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-05-12 04:10:37,572 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-12 04:10:38,002 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-12 04:10:38,167 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-12 04:10:39,093 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-12 04:10:39,325 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-05-12 04:10:39,347 INFO org.springframework.boot.StartupInfoLogger [main] Started PillaBikeApplication in 3.506 seconds (JVM running for 4.001)
+2023-05-12 04:18:04,088 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m55s698ms296µs600ns).
+2023-05-12 04:27:42,274 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m38s71ms142µs200ns).
