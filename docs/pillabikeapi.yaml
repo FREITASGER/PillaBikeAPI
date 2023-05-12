@@ -83,7 +83,26 @@ paths:
         '500':
           $ref: '#/components/responses/InternalServerError'
   /parkings/{parkingId}/bikes:
-   post:
+    get:
+      tags:
+        - Bikes
+      summary: It obtains information about the bikes in a specific parking
+      description: It obtains the information about the bike in a specific parking, whose id is given in the URL
+      operationId: getBikeByParkingId
+      parameters:
+        - $ref: '#/components/parameters/BikeId'
+      responses:
+        '200':
+          description: Bike information is returned
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BikeInformation'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+    post:
      tags:
        - Bikes
      summary: Registration of a new bike
@@ -219,11 +238,13 @@ components:
         description:
           type: string
           description: It provides a description of the bike model
-          example:
+          example: Vintage
         price:
           type: number
           description: Bike price
-          example:
+          example: 200
+        parking:
+          $ref: '#/components/schemas/Parking'
     Parking:
       type: object
       properties:
