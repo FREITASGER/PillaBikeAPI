@@ -49,7 +49,7 @@ public class BikeController {
     }
 
     //Modify bike
-    @PutMapping("/bikes/{id}")
+    @PutMapping("/bikes/{id}/{parkingId}")
     public ResponseEntity<Bike> modifyBike(@PathVariable long id, @RequestBody Bike bike) throws BikeNotFoundException {
         logger.debug("begin modifyBike");
         Bike modifiedBike = bikeService.modifyBike(id, bike);

@@ -1,6 +1,7 @@
 package com.svalero.pillaBike.controller;
 
 import com.svalero.pillaBike.domain.Parking;
+import com.svalero.pillaBike.exception.BikeNotFoundException;
 import com.svalero.pillaBike.exception.ErrorMessage;
 import com.svalero.pillaBike.exception.ParkingNotFoundException;
 import com.svalero.pillaBike.service.ParkingService;
@@ -52,7 +53,7 @@ public class ParkingController {
 
     //Get all parkings
     @GetMapping("/parkings")
-    public ResponseEntity<List<Parking>> getParkings() {
+    public ResponseEntity<?> getParkings() {
         return ResponseEntity.ok(parkingService.findAll()); //me devuelve desde el service
     }
 
@@ -95,6 +96,5 @@ public class ParkingController {
         ErrorMessage errorMessage = new ErrorMessage(500, "Internal Server Error");
         return new ResponseEntity<>(errorMessage, HttpStatus.INTERNAL_SERVER_ERROR);
     }
-
 }
 
