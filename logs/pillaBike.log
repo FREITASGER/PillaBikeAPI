@@ -1,0 +1,113 @@
+2023-05-12 04:10:36,254 INFO org.springframework.boot.StartupInfoLogger [main] Starting PillaBikeApplication using Java 17.0.5 on DESKTOP-4L55LO1 with PID 23856 (C:\Users\Cristina\IdeaProjects\2º DAM\Prácticas junio\PillaBike\target\classes started by Cristina in C:\Users\Cristina\IdeaProjects\2º DAM\Prácticas junio\PillaBike)
+2023-05-12 04:10:36,267 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-12 04:10:37,453 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-05-12 04:10:37,454 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-12 04:10:37,461 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-05-12 04:10:37,572 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-12 04:10:38,002 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-12 04:10:38,167 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-12 04:10:39,093 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-12 04:10:39,325 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-05-12 04:10:39,347 INFO org.springframework.boot.StartupInfoLogger [main] Started PillaBikeApplication in 3.506 seconds (JVM running for 4.001)
+2023-05-12 04:18:04,088 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m55s698ms296µs600ns).
+2023-05-12 04:27:42,274 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m38s71ms142µs200ns).
+2023-05-12 05:11:57,237 INFO org.springframework.boot.StartupInfoLogger [main] Starting PillaBikeApplication using Java 17.0.5 on DESKTOP-4L55LO1 with PID 7064 (C:\Users\Cristina\IdeaProjects\2º DAM\Prácticas junio\PillaBike\target\classes started by Cristina in C:\Users\Cristina\IdeaProjects\2º DAM\Prácticas junio\PillaBike)
+2023-05-12 05:11:57,240 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-12 05:11:58,352 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-05-12 05:11:58,353 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-12 05:11:58,354 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-05-12 05:11:58,453 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-12 05:11:58,786 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-12 05:11:58,925 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-12 05:11:59,835 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-12 05:12:00,061 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-05-12 05:12:00,083 INFO org.springframework.boot.StartupInfoLogger [main] Started PillaBikeApplication in 3.188 seconds (JVM running for 3.604)
+2023-05-12 05:12:18,001 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-8] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-12 08:32:55,839 INFO org.springframework.boot.StartupInfoLogger [main] Starting PillaBikeApplication using Java 17.0.5 on DESKTOP-4L55LO1 with PID 11188 (C:\Users\Cristina\IdeaProjects\2º DAM\Prácticas junio\PillaBike\target\classes started by Cristina in C:\Users\Cristina\IdeaProjects\2º DAM\Prácticas junio\PillaBike)
+2023-05-12 08:32:55,858 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-12 08:32:57,110 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-05-12 08:32:57,111 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-12 08:32:57,112 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-05-12 08:32:57,220 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-12 08:32:57,848 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-12 08:32:58,108 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-12 08:32:59,041 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-12 08:32:59,277 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-05-12 08:32:59,305 INFO org.springframework.boot.StartupInfoLogger [main] Started PillaBikeApplication in 3.959 seconds (JVM running for 4.446)
+2023-05-12 08:33:53,955 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-12 08:33:53,992 ERROR com.svalero.pillaBike.controller.ParkingController [http-nio-8081-exec-3] Required URI template variable 'id' for method parameter type long is not present
+org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type long is not present
+	at org.springframework.web.servlet.mvc.method.annotation.PathVariableMethodArgumentResolver.handleMissingValue(PathVariableMethodArgumentResolver.java:101)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.handleMissingValue(AbstractNamedValueMethodArgumentResolver.java:226)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:114)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-12 08:39:15,924 INFO org.springframework.boot.StartupInfoLogger [main] Starting PillaBikeApplication using Java 17.0.5 on DESKTOP-4L55LO1 with PID 29496 (C:\Users\Cristina\IdeaProjects\2º DAM\Prácticas junio\PillaBike\target\classes started by Cristina in C:\Users\Cristina\IdeaProjects\2º DAM\Prácticas junio\PillaBike)
+2023-05-12 08:39:15,927 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-12 08:39:17,066 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-05-12 08:39:17,068 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-12 08:39:17,069 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-05-12 08:39:17,168 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-12 08:39:17,493 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-12 08:39:17,629 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-12 08:39:18,521 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-12 08:39:18,741 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-05-12 08:39:18,769 INFO org.springframework.boot.StartupInfoLogger [main] Started PillaBikeApplication in 3.19 seconds (JVM running for 3.61)
+2023-05-12 08:39:28,279 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-12 08:56:44,171 INFO org.springframework.boot.StartupInfoLogger [main] Starting PillaBikeApplication using Java 17.0.5 on DESKTOP-4L55LO1 with PID 30232 (C:\Users\Cristina\IdeaProjects\2º DAM\Prácticas junio\PillaBike\target\classes started by Cristina in C:\Users\Cristina\IdeaProjects\2º DAM\Prácticas junio\PillaBike)
+2023-05-12 08:56:44,183 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-12 08:56:45,316 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2023-05-12 08:56:45,317 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-05-12 08:56:45,318 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-05-12 08:56:45,417 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-05-12 08:56:45,739 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-12 08:56:45,896 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-12 08:56:46,801 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-12 08:56:47,030 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2023-05-12 08:56:47,058 INFO org.springframework.boot.StartupInfoLogger [main] Started PillaBikeApplication in 3.247 seconds (JVM running for 3.738)
+2023-05-12 08:57:05,240 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
