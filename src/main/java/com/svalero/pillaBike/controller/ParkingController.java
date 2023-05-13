@@ -1,6 +1,7 @@
 package com.svalero.pillaBike.controller;
 
 import com.svalero.pillaBike.domain.Parking;
+import com.svalero.pillaBike.exception.BikeNotFoundException;
 import com.svalero.pillaBike.exception.ErrorMessage;
 import com.svalero.pillaBike.exception.ParkingNotFoundException;
 import com.svalero.pillaBike.service.ParkingService;
@@ -35,14 +36,14 @@ public class ParkingController {
     }
 
     //Delete parking
-    @DeleteMapping("/parkings/{parkingId}")
+    @DeleteMapping("/parkings/{id}")
     public ResponseEntity<Void> deleteParking(@PathVariable long id) throws ParkingNotFoundException {
         parkingService.deleteParking(id);
         return ResponseEntity.noContent().build();
     }
 
     //Modify parking
-    @PutMapping("/parkings/{parkingId}")
+    @PutMapping("/parkings/{id}")
     public ResponseEntity<Parking> modifyParking(@PathVariable long id, @RequestBody Parking parking) throws ParkingNotFoundException {
         logger.debug("begin modifyParking");
         Parking modifiedParking = parkingService.modifyParking(id, parking);
